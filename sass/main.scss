@@ -1,0 +1,88 @@
+@import "searchList";
+@import "variables";
+
+.navbar {
+	background-color: #006064;
+}
+
+.navbar-light .navbar-brand {
+	color: white;
+	font-family: $main-font;
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-left: 15px;
+}
+
+.form-control {
+	float: right;
+}
+
+span img {
+	width: 30px;
+	filter: invert(100%);
+}
+
+.container {
+	width: 80%;
+	.mainTitle {
+		font-size: 3em;
+		margin-top: 30px;
+		text-align: center;
+		font-family: $main-font;
+		font-weight: bold;
+		margin-bottom: 35px;
+	}
+	.mainPage-showImg {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.showDiv {
+		width: 100%;
+		height: auto;
+		margin-right: 0;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.showLinkDiv {
+		width: 100%;
+	}
+	.showLink {
+		font-size: 1.5rem;
+		color: #607d8b;
+		text-decoration: none;
+	}
+	.showLink:hover {
+		color: #263238;
+	}
+	.singleShowTitle {
+		font-size: 3em;
+		text-align: center;
+		font-family: $main-font;
+        font-weight: bold;
+        margin: 25px 0;
+        text-align: center;
+    }
+    .titleStyle {
+        font-size :1.5em;
+        font-family: $main-font;
+        font-weight: bold;
+    }
+    .singleShowImgDiv {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .singleShowImg {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        display: inline-block;
+    }
+    .showDescription {
+        font-size: 1.1rem;
+	}
+	.noResultsErrorText {
+        margin: 0 auto;
+		color: red;
+		font-style: italic;
+    }
+}

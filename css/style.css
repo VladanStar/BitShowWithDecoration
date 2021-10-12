@@ -1,0 +1,74 @@
+ body{
+  background-image: url(https://desktop.github.com/images/star-bg.svg), linear-gradient(#191c20, #24292e 1%);
+} 
+
+.header {
+  margin-bottom: 20px; }
+.navbar {
+  border-bottom:2px solid gold ;
+}
+.title {
+  margin: 10px;
+color: gold; }
+.imgborder {
+  border-radius: 3px;
+  border: 2px solid gold;
+  box-shadow: 14px 5px goldenrod;
+}
+.show-img {
+  width: 100%;
+  border:4px solid gold  }
+.title {
+  border: 2px soid gold;
+}
+h1 {
+  margin-bottom: 20px !important;
+color: gold; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+  margin-top: 20px;
+  border-top: 2px solid gold; }
+
+.details {
+  margin-top: 10px; }
+
+.searcher {
+  position: absolute;
+  top: 47px;
+  margin-left: -2px;
+  background: white;
+  list-style-type: none;
+  padding-left: 6px;
+  width: 194px;
+  z-index: 1;
+  border: 2px solid #343a40;
+  border-top: none;
+  box-sizing: border-box;
+  border-radius: 0 0 5px 5px; }
+  .searcher li {
+    border-bottom: 1px solid #343a40;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 96%; 
+  }
+  .searcher li:hover{
+    background-color: khaki;
+  }
+
+.main {
+  display: flex;
+  justify-content: center; 
+color: gold;}
+#cast, #season, #crew, #aka{
+  color: gold;
+}
+.row {
+  color: gold;
+
+}
+
+/*# sourceMappingURL=style.css.map */
